@@ -11,7 +11,7 @@ import java.util.Optional;
 
 import static org.springframework.http.HttpStatus.OK;
 
-@CrossOrigin(maxAge = 3600)
+@CrossOrigin("http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1/movies")
 public class MovieController {
