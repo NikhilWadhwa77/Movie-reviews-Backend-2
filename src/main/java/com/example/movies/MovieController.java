@@ -11,7 +11,7 @@ import java.util.Optional;
 
 import static org.springframework.http.HttpStatus.OK;
 
-@CrossOrigin("https://movies-frontend-kbtr.onrender.com")
+@CrossOrigin
 @RestController
 @RequestMapping("/api/v1/movies")
 public class MovieController {
